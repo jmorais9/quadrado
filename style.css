@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.quadrado {
+    width: 80%;
+    max-width: 350px; 
+    height: 50vw; 
+    max-height: 250px; 
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 2px 2px 10px white;
+    transition: 0.5s ease;
+}
+
+.conteiner-quadrado {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-input {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 3px white;
+    box-sizing: border-box; 
+}
